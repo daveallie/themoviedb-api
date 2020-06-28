@@ -9,60 +9,61 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:19 GMT
-      Etag:
-      - '"589aaa6e7f3afef8ec9dc9a8d4612494"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '17768'
-      X-Memc-Expires:
-      - '11032'
-      X-Memc-Key:
-      - f32970bb12433bcdf536f07108ac7a72
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '28'
-      X-Ratelimit-Reset:
-      - '1455031046'
       Content-Length:
-      - '331'
+      - '396'
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:23:07 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - f32970bb12433bcdf536f07108ac7a72
+      X-Memc-Age:
+      - '19497'
+      X-Memc-Expires:
+      - '2103'
+      Etag:
+      - W/"09631a393fd08abf3abe8f3e2f47dc19"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:23:07 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 52fa887ba82513d16e3f586c3db681fe.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - Sy4H20iN91v_s9k_5U3f15y00ogjXEns5sGHEjnFznrHKQcJv4eeVg==
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJpZCI6MTM5NiwicmVzdWx0cyI6W3sidGl0bGUiOiJCcmVha2luZyBCYWQ6
-        IEEgUXXDrW1pY2EgZG8gTWFsIiwiaXNvXzMxNjZfMSI6IkJSIn0seyJ0aXRs
-        ZSI6IlNob3ZlciBzaHVyb3QiLCJpc29fMzE2Nl8xIjoiSUwifSx7InRpdGxl
-        IjoiQmFkIEJpYXJpIiwiaXNvXzMxNjZfMSI6IklSIn0seyJ0aXRsZSI6IkJy
-        ZWFraW5nIEJhZCAtIFJlYXppb25pIGNvbGxhdGVyYWxpIiwiaXNvXzMxNjZf
-        MSI6IklUIn0seyJ0aXRsZSI6IkJ1cmVpa2luZ3UgYmFkZG8iLCJpc29fMzE2
-        Nl8xIjoiSlAifSx7InRpdGxlIjoiQnLEmXN0YW50aXMgYmxvZ2lzIiwiaXNv
-        XzMxNjZfMSI6IkxUIn1dfQ==
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:19 GMT
-recorded_with: VCR 3.0.1
+        eyJpZCI6MTM5NiwicmVzdWx0cyI6W3siaXNvXzMxNjZfMSI6IkNOIiwidGl0bGUiOiLnu53lkb3mr5LluIgiLCJ0eXBlIjoi5Ymn5oOFIC8g54qv572qIn0seyJpc29fMzE2Nl8xIjoiSUwiLCJ0aXRsZSI6IlNob3ZlciBzaHVyb3QiLCJ0eXBlIjoicm9tYW5pemF0aW9uIn0seyJpc29fMzE2Nl8xIjoiSVIiLCJ0aXRsZSI6Itio2K/YqNuM2KfYsduMIiwidHlwZSI6IiJ9LHsiaXNvXzMxNjZfMSI6IkpQIiwidGl0bGUiOiJCdXJlaWtpbmd1IGJhZGRvIiwidHlwZSI6InJvbWFqaSJ9LHsiaXNvXzMxNjZfMSI6IlBUIiwidGl0bGUiOiJCcmVha2luZyBCYWQ6IFJ1cHR1cmEgVG90YWwiLCJ0eXBlIjoiIn0seyJpc29fMzE2Nl8xIjoiVVMiLCJ0aXRsZSI6IkJyZWFraW5nIEJhZCIsInR5cGUiOiIifV19
+  recorded_at: Sun, 28 Jun 2020 05:23:07 GMT
+recorded_with: VCR 6.0.0

@@ -9,79 +9,62 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:05 GMT
-      Etag:
-      - W/"7968849179003297f82a0372bf3e9a53"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '4702'
-      X-Memc-Expires:
-      - '24098'
-      X-Memc-Key:
-      - 5aff060a307dbdfc519b166c1993d0f2
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '9'
-      X-Ratelimit-Reset:
-      - '1455031026'
-      Content-Length:
-      - '1007'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:22:47 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 5aff060a307dbdfc519b166c1993d0f2
+      X-Memc-Age:
+      - '8653'
+      X-Memc-Expires:
+      - '12947'
+      Etag:
+      - W/"e58e0427c4ee99ec4d050dc0dd1f3772"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:22:47 GMT
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 c8cc849f9c5ed132231369ce1abdad90.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - mHcKcFVpA2PH-ND62bt-SYraI_SoGY6vXAfvU82rAhhySL0TaaMuYg==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAA6XWW3OiSBQH8O/Cs5Xt+yVv3qPRCIoX3JpKgaDgDQKo6FS+
-        +5DazEY72R2G4eG8gPKr03/69HctcLV7SkFFc+zFxo3DKNHu//6u2UnkLdLn
-        2E6DULuHd/z6EhVtGWy958hOfe1e+0scBmA17gv76cXqJXCQmDUjmB3Asnm8
-        W0crraL5XrDyU+2eo/xNQRI+MyyfYf5bb5/fPYap92wfvdheebnmjhBIIKII
-        AEYQfL+/CA/7/B8Qq2inwH17MUQCvFZ+01pNl/zQE5OkW/f7azKechJMMrs3
-        7g0VKwSiCDZHCoA4yh8XhNxi+YdVot+3psljizBj6UXriTHaHFOrre95p1M3
-        62Ws5E5yRhEVCFLJkGIVf2aFUU0f1db9Iw7NcaMP7Rc7ptWtOxJeSSuEEnPM
-        OZNA3FIhuLV+q2hRmKRe/FV2wR27ubgaXggb664Z7uWqwfy52NfXoyC1O7OW
-        ocIF+DWc3jFBKMICyLeqpBdeJSKP9+cu/0rrRym2bRoAMx5V9013iyfdeBiv
-        PfEpErSQlmAMGUSQobzbVPnWrvoMymhPF2gaA8eIhlav94SyyJjbUZay1YOp
-        aPPPp4gWC46JkEwSLCi61ZIPLCmFnXUcGLPeYozDunnO8N7bgVT2k72KLdja
-        fAfDQAouIadUae0VtlRnt07bHY0AfVqNDMdvnJftx+3Q8xPX89XOkmJYAEm+
-        OfxTldDSDywrg93JkW6JS+amVrcTR97EcoSD/EX7MinXWYgZoCSfDZwJrnxi
-        +EpbqrXndmh0Li9gtpwny8vxorc9bgyCzNJf1Gn2Njd/jUWAcyQJE1TKW+vH
-        LKNlpC80djYu6VukK6rz5gU8ZdZ0Pz1frEa5vubzVmL6XrmSgj+NrH2y9F3D
-        WIjpysY6Gg4P6TbSG0yvqtqCkQVUMAYhoSzPgaK9OiX8R2Q5+D8sGhzr22DW
-        3D40FsRJbLMZxAFohVGwU7CymJVglD/5XpXE/mtlmH1FvYZ+pu574Rj3Ux+x
-        rrFtHXaL88wIwrqPpu2SKShkLReC6LEdZ2YN0+qml8zrpnCFz1qyNuo/lcQi
-        CBn5WW+x6GraltKeBrNOOtNrTa+9bz8azf5Kr6W7wazO1K2gkDY/1DApoJAw
-        H2JAKJvB1QGsFPY82aSyNl+tt5mbDAfAQvqKxGn3ocZLYvNpm08uCBAg6hGs
-        QGc5kATA9woVbFXuTmjUCwxmhw6brbPTxsFrd+cZqboZYFIM+3PfyqsS2uut
-        i/KvtYypJ1ofPkDHDLt6MAgdkmWL6fLgNsetfpOqxGL9fFtyTPMDKyAcYIV4
-        tfr50r5+e/0BLNAX75sNAAA=
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:05 GMT
-recorded_with: VCR 3.0.1
+      string: '{"id":550,"backdrops":[{"aspect_ratio":1.777777777777778,"file_path":"/5pxdgKVEDWDQBtvqIB2eB2oheml.jpg","height":1080,"iso_639_1":"en","vote_average":5.18,"vote_count":3,"width":1920},{"aspect_ratio":1.777777777777778,"file_path":"/yPeG1RQm5Am0eslu0IwUEJ4VXND.jpg","height":720,"iso_639_1":"en","vote_average":5.172,"vote_count":1,"width":1280}],"posters":[{"aspect_ratio":0.66900790166813,"file_path":"/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg","height":2278,"iso_639_1":"en","vote_average":5.456,"vote_count":11,"width":1524},{"aspect_ratio":0.6666666666666666,"file_path":"/oqhuGSl6gp22rIRo52IouPhV4hl.jpg","height":1500,"iso_639_1":"en","vote_average":5.322,"vote_count":5,"width":1000},{"aspect_ratio":0.754,"file_path":"/wR5HZWdVpcXx9sevV1bQi7rP4op.jpg","height":1500,"iso_639_1":"en","vote_average":5.318,"vote_count":3,"width":1131},{"aspect_ratio":0.666,"file_path":"/b1ONg8Is4l760oryJa7Aw7LdPtM.jpg","height":1000,"iso_639_1":"en","vote_average":5.312,"vote_count":1,"width":666},{"aspect_ratio":0.7012622720897616,"file_path":"/8kNruSfhk5IoE4eZOc4UpvDn6tq.jpg","height":1426,"iso_639_1":"en","vote_average":5.312,"vote_count":1,"width":1000},{"aspect_ratio":0.6666666666666666,"file_path":"/clkAGOl8GiPLJ0T2HyrgnBXQmx8.jpg","height":1500,"iso_639_1":"en","vote_average":5.312,"vote_count":1,"width":1000},{"aspect_ratio":0.707056307911618,"file_path":"/wlmGPHDbnOK4AwL37m6tegxO8A3.jpg","height":1403,"iso_639_1":"en","vote_average":5.312,"vote_count":1,"width":992},{"aspect_ratio":0.6666666666666666,"file_path":"/cRU0PWIGULY4qbwbVFnrBminDv7.jpg","height":1500,"iso_639_1":"en","vote_average":5.252,"vote_count":4,"width":1000},{"aspect_ratio":0.6666666666666666,"file_path":"/jul3jGd5UxZM7JrHupoAMRsfj0A.jpg","height":3000,"iso_639_1":"en","vote_average":5.19,"vote_count":5,"width":2000},{"aspect_ratio":0.6666666666666666,"file_path":"/a26cQPRhJPX6GbWfQbvZdrrp9j9.jpg","height":3000,"iso_639_1":"en","vote_average":5.18,"vote_count":3,"width":2000},{"aspect_ratio":0.6666666666666666,"file_path":"/rVAFyHwlnRPxdfkbCbiv081DJBk.jpg","height":3000,"iso_639_1":"en","vote_average":5.172,"vote_count":1,"width":2000},{"aspect_ratio":0.6666666666666666,"file_path":"/9VOESirK1bX66Xenj9QHcl5GJU9.jpg","height":1200,"iso_639_1":"en","vote_average":0.0,"vote_count":0,"width":800},{"aspect_ratio":0.6666666666666666,"file_path":"/obVTG7QMbQ7gV3oZAJuFjKBhsGk.jpg","height":2100,"iso_639_1":"en","vote_average":0.0,"vote_count":0,"width":1400},{"aspect_ratio":0.6666666666666666,"file_path":"/hPkAixiAyXzQb8uTOiovuhpDBK2.jpg","height":2100,"iso_639_1":"en","vote_average":0.0,"vote_count":0,"width":1400},{"aspect_ratio":0.6666666666666666,"file_path":"/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg","height":3000,"iso_639_1":"en","vote_average":0.0,"vote_count":0,"width":2000},{"aspect_ratio":0.6666666666666666,"file_path":"/2z8mFQrT0ESSytWZqro1jsCbvCC.jpg","height":3000,"iso_639_1":"en","vote_average":0.0,"vote_count":0,"width":2000},{"aspect_ratio":0.6670190274841438,"file_path":"/jrKpfWghQDPTIJwcZBK0uXh9ds3.jpg","height":946,"iso_639_1":"en","vote_average":0.0,"vote_count":0,"width":631},{"aspect_ratio":0.6666666666666666,"file_path":"/7KR49D4jnPId7G3DKTNV2r9qjUh.jpg","height":1500,"iso_639_1":"en","vote_average":0.0,"vote_count":0,"width":1000}]}'
+  recorded_at: Sun, 28 Jun 2020 05:22:47 GMT
+recorded_with: VCR 6.0.0

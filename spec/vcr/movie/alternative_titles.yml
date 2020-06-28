@@ -9,68 +9,61 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:04 GMT
-      Etag:
-      - '"60c69b5a26ee01c2ccefaf0510fdb7cc"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '5681'
-      X-Memc-Expires:
-      - '23119'
-      X-Memc-Key:
-      - 6bbcd8124462dcecf4d071a1d41640e0
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '13'
-      X-Ratelimit-Reset:
-      - '1455031026'
       Content-Length:
-      - '718'
+      - '473'
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:22:46 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 48c734ad87b50c323410003777049753
+      X-Memc-Age:
+      - '10690'
+      X-Memc-Expires:
+      - '10910'
+      Etag:
+      - W/"f80d7d58271f006a65d4369460270e8a"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:22:46 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 f1d7bef7d2e148025cea4670117d1f4a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - p64ftZGFO5DiTzgJQdzO2d_aJkmt1b6FWblLlGXD-7nEQlXaTr3i7Q==
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJpZCI6NTUwLCJ0aXRsZXMiOlt7Imlzb18zMTY2XzEiOiJUVyIsInRpdGxl
-        Ijoi6ayl6Zmj5L+x5qiC6YOoIn0seyJpc29fMzE2Nl8xIjoiQVIiLCJ0aXRs
-        ZSI6IkVsIGNsdWIgZGUgbGEgcGVsZWEifSx7Imlzb18zMTY2XzEiOiJBWiIs
-        InRpdGxlIjoiRMO2ecO8c2jDp8O8IEtsdWJ1In0seyJpc29fMzE2Nl8xIjoi
-        RUUiLCJ0aXRsZSI6Iktha2x1c2tsdWJpIn0seyJpc29fMzE2Nl8xIjoiSFIi
-        LCJ0aXRsZSI6IktsdWIgYm9yYWNhIn0seyJpc29fMzE2Nl8xIjoiSUwiLCJ0
-        aXRsZSI6Ik1vJ2Fkb24gS3JhdiJ9LHsiaXNvXzMxNjZfMSI6IkxUIiwidGl0
-        bGUiOiJLb3ZvcyBrbHViYXMifSx7Imlzb18zMTY2XzEiOiJNSyIsInRpdGxl
-        IjoiQm9yZWNoa2kgS2x1YiJ9LHsiaXNvXzMxNjZfMSI6IlBUIiwidGl0bGUi
-        OiJDbHViZSBkZSBDb21iYXRlIn0seyJpc29fMzE2Nl8xIjoiUlMiLCJ0aXRs
-        ZSI6IkJvcmlsYcSNa2kga2x1YiJ9LHsiaXNvXzMxNjZfMSI6IlNJIiwidGl0
-        bGUiOiJLbHViIGdvbGloIHBlc3RpIn0seyJpc29fMzE2Nl8xIjoiU0siLCJ0
-        aXRsZSI6IktsdWIgYml0a8Ohcm92In0seyJpc29fMzE2Nl8xIjoiSVIiLCJ0
-        aXRsZSI6Itio2KfYtNqv2KfZhyDZhdio2KfYsdiy2YcifSx7Imlzb18zMTY2
-        XzEiOiJNWCIsInRpdGxlIjoiRWwgY2x1YiBkZSBsYSBwZWxlYSJ9LHsiaXNv
-        XzMxNjZfMSI6IkhVIiwidGl0bGUiOiJIYXJjb3NvayBLbHViYmphIn1dfQ==
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:04 GMT
-recorded_with: VCR 3.0.1
+        eyJpZCI6NTUwLCJ0aXRsZXMiOlt7Imlzb18zMTY2XzEiOiJCRyIsInRpdGxlIjoiQm9lbiBrbHViIiwidHlwZSI6IiJ9LHsiaXNvXzMxNjZfMSI6IkJSIiwidGl0bGUiOiJDbHViZSBkYSBMdXRhIiwidHlwZSI6IiJ9LHsiaXNvXzMxNjZfMSI6IkdSIiwidGl0bGUiOiJLbMOhYiBtw6FjaGlzIiwidHlwZSI6IiJ9LHsiaXNvXzMxNjZfMSI6IklMIiwidGl0bGUiOiJNbydhZG9uIEtyYXYiLCJ0eXBlIjoicm9tYW5pemF0aW9uIn0seyJpc29fMzE2Nl8xIjoiS1IiLCJ0aXRsZSI6Iu2MjOydtO2KuCDtgbTrn70iLCJ0eXBlIjoiIn0seyJpc29fMzE2Nl8xIjoiUlMiLCJ0aXRsZSI6IkJvcmlsYcSNa2kga2x1YiIsInR5cGUiOiIifSx7Imlzb18zMTY2XzEiOiJSVSIsInRpdGxlIjoiQm95dHNvdnNraXkga2x1YiIsInR5cGUiOiIifSx7Imlzb18zMTY2XzEiOiJVQSIsInRpdGxlIjoiQml5dHNpdnPKuWt5eSBrbHViIiwidHlwZSI6IiJ9XX0=
+  recorded_at: Sun, 28 Jun 2020 05:22:46 GMT
+recorded_with: VCR 6.0.0

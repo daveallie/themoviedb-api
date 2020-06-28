@@ -9,53 +9,61 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=300
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:08 GMT
-      Etag:
-      - '"7f43e385e551fac54df200fe8d2ba3f4"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - MISS, STORE
-      X-Memc-Age:
-      - '0'
-      X-Memc-Expires:
-      - '300'
-      X-Memc-Key:
-      - 2df9b48780417d743d6a917ed9f007f0
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '32'
-      X-Ratelimit-Reset:
-      - '1455031036'
       Content-Length:
       - '322'
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:22:51 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=300
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - 9bef3615c737b695de1f3ace76a022ea
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '300'
+      Etag:
+      - W/"8eba03c48c352ef8b6f3738330ef07db"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:22:51 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 31efcfadb9bf42888048a4e21662d761.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - tyGptJ86IpVk8b24bDh3XLO-k-3JQpg2rgBZtpzNsZRYz2YAHdmKNA==
     body:
       encoding: UTF-8
       string: '{"changes":[{"key":"images","items":[{"id":"558ab78cc3a36869f2001e32","action":"updated","time":"2015-06-24
         13:58:36 UTC","iso_639_1":"fr","value":{"poster":{"file_path":"/tYnygTSBvN4rxypuJ9S9JjUGqMX.jpg","iso_639_1":"fr"}},"original_value":{"poster":{"file_path":"/tYnygTSBvN4rxypuJ9S9JjUGqMX.jpg","iso_639_1":"en"}}}]}]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:08 GMT
-recorded_with: VCR 3.0.1
+  recorded_at: Sun, 28 Jun 2020 05:22:51 GMT
+recorded_with: VCR 6.0.0

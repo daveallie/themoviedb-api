@@ -9,55 +9,64 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:20 GMT
-      Etag:
-      - '"1611fd42ecc70dd32e6f06a6f01d3ae8"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '14095'
-      X-Memc-Expires:
-      - '14705'
-      X-Memc-Key:
-      - 487391286c1d80d481adf648de73a9c2
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '20'
-      X-Ratelimit-Reset:
-      - '1455031046'
       Content-Length:
-      - '383'
+      - '561'
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:23:09 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 487391286c1d80d481adf648de73a9c2
+      X-Memc-Age:
+      - '3596'
+      X-Memc-Expires:
+      - '18004'
+      Etag:
+      - W/"5e2b6d303c7a0c6ce6410f2d432e2c72"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:23:09 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 4507fe7df8410726135c5afe328b2149.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - EmK5mB8EpR3ZFhPUHWtVcDTZqSE26uVu-e3-rQ6mZ2_nk8mEZvC-gA==
     body:
       encoding: UTF-8
-      string: '{"id":1396,"results":[{"id":18198,"name":"drugs"},{"id":190008,"name":"outlaws"},{"id":191005,"name":"albuquerque"},{"id":191199,"name":"criminal
-        lawyer"},{"id":15484,"name":"meth lab"},{"id":15009,"name":"criminal"},{"id":41525,"name":"high
-        school teacher"},{"id":2231,"name":"drug dealer"},{"id":156805,"name":"dea
-        agent"},{"id":10163,"name":"cancer"},{"id":14536,"name":"crime"}]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:20 GMT
-recorded_with: VCR 3.0.1
+      string: '{"id":1396,"results":[{"name":"drug dealer","id":2231},{"name":"mexico","id":534},{"name":"new
+        mexico","id":1508},{"name":"terminal illness","id":6564},{"name":"outlaw","id":9503},{"name":"cancer","id":10163},{"name":"drugs","id":14964},{"name":"criminal","id":15009},{"name":"meth
+        lab","id":15484},{"name":"high school teacher","id":41525},{"name":"dea agent","id":156805},{"name":"recreational
+        vehicle","id":163795},{"name":"cerebral palsy","id":180175},{"name":"albuquerque","id":191005},{"name":"criminal
+        lawyer","id":191199},{"name":"cartel","id":206594}]}'
+  recorded_at: Sun, 28 Jun 2020 05:23:09 GMT
+recorded_with: VCR 6.0.0

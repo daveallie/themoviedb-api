@@ -9,55 +9,59 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=0
       Content-Type:
       - application/json;charset=utf-8
+      Content-Length:
+      - '537'
+      Connection:
+      - keep-alive
       Date:
-      - Tue, 09 Feb 2016 15:17:08 GMT
-      Etag:
-      - '"9fc727b6958add996b5fdb1178771886"'
-      Last-Modified:
-      - '2016-02-09 14:50:53 +0000'
+      - Sun, 28 Jun 2020 05:22:51 GMT
       Server:
       - openresty
-      Status:
-      - 200 OK
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=0
       X-Memc:
       - MISS
+      X-Memc-Key:
+      - 7d7c5a5093dfb9d7fcd7412f9fd461eb
       X-Memc-Age:
       - '0'
       X-Memc-Expires:
       - '0'
-      X-Memc-Key:
-      - 7d7c5a5093dfb9d7fcd7412f9fd461eb
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '31'
-      X-Ratelimit-Reset:
-      - '1455031036'
-      Content-Length:
-      - '468'
-      Connection:
-      - keep-alive
+      Last-Modified:
+      - '2020-06-28 05:18:03 +0000'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 d464a17a20fc9cad7861828ec660c393.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - MYiWqZ1r0wCmVkFyD3SFZBi1ZMqlcbQaM5UhjxQ3d53I195mq9Asyw==
     body:
-      encoding: UTF-8
-      string: '{"adult":true,"backdrop_path":null,"belongs_to_collection":null,"budget":0,"genres":[],"homepage":"http://silaut.com","id":381897,"imdb_id":"","original_language":"en","original_title":"Coba","overview":"Coba
-        banget","popularity":0.0,"poster_path":null,"production_companies":[],"production_countries":[],"release_date":"","revenue":0,"runtime":0,"spoken_languages":[],"status":"Released","tagline":"coba","title":"Coba","video":true,"vote_average":0.0,"vote_count":0}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:08 GMT
-recorded_with: VCR 3.0.1
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJhZHVsdCI6ZmFsc2UsImJhY2tkcm9wX3BhdGgiOm51bGwsImJlbG9uZ3NfdG9fY29sbGVjdGlvbiI6bnVsbCwiYnVkZ2V0IjowLCJnZW5yZXMiOltdLCJob21lcGFnZSI6IiIsImlkIjo3MTk2NTIsImltZGJfaWQiOiJ0dDAyMzE1MTIiLCJvcmlnaW5hbF9sYW5ndWFnZSI6ImVsIiwib3JpZ2luYWxfdGl0bGUiOiLOlM+Nzr8gzojOvs+Fz4DOvc6xIM6azr/Pgc+MzrnOtM6xIiwib3ZlcnZpZXciOiIiLCJwb3B1bGFyaXR5IjowLjAsInBvc3Rlcl9wYXRoIjoiL3NLMnZaS0M4dldkSENuWjdEQmNLUGN5VGRGei5qcGciLCJwcm9kdWN0aW9uX2NvbXBhbmllcyI6W10sInByb2R1Y3Rpb25fY291bnRyaWVzIjpbXSwicmVsZWFzZV9kYXRlIjoiIiwicmV2ZW51ZSI6MCwicnVudGltZSI6MCwic3Bva2VuX2xhbmd1YWdlcyI6W10sInN0YXR1cyI6IlJlbGVhc2VkIiwidGFnbGluZSI6IiIsInRpdGxlIjoizpTPjc6/IM6Izr7Phc+Azr3OsSDOms6/z4HPjM65zrTOsSIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdlIjowLjAsInZvdGVfY291bnQiOjB9
+  recorded_at: Sun, 28 Jun 2020 05:22:51 GMT
+recorded_with: VCR 6.0.0

@@ -9,71 +9,73 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:15 GMT
-      Etag:
-      - W/"013462991054b930b10629e27d5a37db"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '25278'
-      X-Memc-Expires:
-      - '3522'
-      X-Memc-Key:
-      - 0c559bbdcf116f54a66c1b49f1415956
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '5'
-      X-Ratelimit-Reset:
-      - '1455031036'
-      Content-Length:
-      - '650'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:23:02 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - 0c559bbdcf116f54a66c1b49f1415956
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '21600'
+      Etag:
+      - W/"faca4c742342775dd7ea6d5974b3c1d9"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:23:02 GMT
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 4531d36bddcd36b16bc48daff001c13f.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - 7o8TB5HOK4FwhSGj4Pck35VcUl06bCiKgpOfZ3eufbB_OFmpl_RWCQ==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAA42UW3PaMBCF/4pGT+2MQ3zBJvCWlKaUNA2NM0PaTscj24st
-        MJarC5Rm8t+7Apdc2+SBAR0k7edzdn1DGZdJzjTQAfX6veDAcw/8LnVoJmFN
-        B99vKM/pwPO9rrvVcq4Tq9DQD3th4PteP/P7YeDlqed1w76PR2u2tNcdp+mG
-        nLO6RimHhkm9hFrjH1PJNa8LlOcibdcgcdlIMeMVJA3TJR3UpqpunRYgjKLg
-        NQBpdAcwFgqaksRMFrbwI4ohl5A94Ngp4ikJPQxh8mUcz7qXk/WHYaDGy+z0
-        XTFzj85Hi868KejtD4dCw5XIIanNMsXHGXgOLQwonSjNpLrz0g16e8QRkyvY
-        kDNAB6qd6y88IFiHs5JJllnTBhSXQub2p/uUW3y8+qyn8XB97Jepic2n/Ox6
-        /G1xfRHPd9x//fW9sB95e65Lni3IyEhlbXsRKnK3HfMslPcY6mGsvX4Q3QWG
-        X4rEldgw2zQv1/Vt2s/X9f9X1w/DcF91yFY8JxMpVuxVEUTdo39WDR5XpYdm
-        fvJ7Enn6a7X+OW1OAnHxa1FX3rV5X+xbpyWJORRAxIxcgZTbPhQrkCtuJ5FO
-        S6gJIyeS1wtFrqTBhErgSpNCoGspywmr8UNKgQ2H9yiuDdNc4CnJFSiHnIk5
-        WxDExv2sYLzGw7oEklUCL9OC5HxmFGy1/ekOGQEpmSJ6LfBu7Am7cyZht6+t
-        plARS1SsLkWKE6DImwft7ZBdvuNOGzEKJgdyyiQoeEs4gtbkWC43RBnZVEYR
-        hdMIHfShDa3XjbYG5yazaEmG87ZL1qEKmELp3vQpzavqXvoOXQkNCUNPkRjn
-        peO2UiaMfSe4t38AzHUaBBAFAAA=
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:15 GMT
-recorded_with: VCR 3.0.1
+      string: '{"air_date":"1973-10-24","crew":[{"id":12140,"credit_id":"5257532219c29531db114592","name":"Abby
+        Mann","department":"Writing","job":"Writer","gender":0,"profile_path":null},{"id":15663,"credit_id":"5257532219c29531db1145b6","name":"Joseph
+        Sargent","department":"Directing","job":"Director","gender":2,"profile_path":null},{"id":151454,"credit_id":"59c2fe6f9251415b24002c88","name":"Gerald
+        Perry Finnerman","department":"Camera","job":"Director of Photography","gender":2,"profile_path":null},{"id":1704093,"credit_id":"59c2fe799251415b54002a73","name":"John
+        Kaufman","department":"Editing","job":"Editor","gender":2,"profile_path":null},{"id":7186,"credit_id":"59c2fe8b9251415b32002b0c","name":"John
+        J. Lloyd","department":"Art","job":"Art Direction","gender":2,"profile_path":null}],"episode_number":1,"guest_stars":[{"id":1037,"name":"Harvey
+        Keitel","credit_id":"5257532219c29531db1145e2","character":"","order":0,"gender":2,"profile_path":"/nmhafZ605lZjs1CLcr9nSletOSd.jpg"},{"id":1215961,"name":"Rick
+        Hurst","credit_id":"5257532219c29531db114604","character":"","order":1,"gender":2,"profile_path":null},{"id":157936,"name":"James
+        Sloyan","credit_id":"5257532219c29531db114626","character":"","order":2,"gender":2,"profile_path":null},{"id":2555,"name":"David
+        Proval","credit_id":"5257532219c29531db114648","character":"","order":3,"gender":2,"profile_path":"/ku3LWQXiJ80nWgs21fKvTMaR6Ui.jpg"}],"name":"Siege
+        of Terror","overview":"Kojak has two hours to free the hostages from three
+        robbers in an Army surplus store.","id":255746,"production_code":"","season_number":1,"still_path":"/pAznrflVb54IkFCWxep6ECgagPV.jpg","vote_average":0.0,"vote_count":0}'
+  recorded_at: Sun, 28 Jun 2020 05:23:03 GMT
+recorded_with: VCR 6.0.0

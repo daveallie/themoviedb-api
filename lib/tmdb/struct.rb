@@ -7,8 +7,6 @@ module Tmdb
       if data
         data.each do |k,v|
           @table[k.to_sym] = analyze_value(v)
-
-          new_ostruct_member(k)
         end
       end
     end

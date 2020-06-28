@@ -9,53 +9,60 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:06 GMT
-      Etag:
-      - '"8385922582a7720b7ae1305803ab5819"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '9756'
-      X-Memc-Expires:
-      - '19044'
-      X-Memc-Key:
-      - ca5c545c41e5d5b7bf047770d2f31025
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '39'
-      X-Ratelimit-Reset:
-      - '1455031036'
       Content-Length:
-      - '157'
+      - '404'
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:22:47 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - ca5c545c41e5d5b7bf047770d2f31025
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '21600'
+      Last-Modified:
+      - '2020-05-20 21:02:15 +0000'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 ce728907a201ee4bd45e0b0d29cebb4c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - 81j4X7hRbtOCRmC9HjocBrORbnq22tBWuMNGOxZ7n48wlh8nrgtbnQ==
     body:
       encoding: UTF-8
-      string: '{"id":550,"results":[{"id":"533ec654c3a36854480003eb","iso_639_1":"en","key":"SUXWAEX2jlg","name":"Trailer
-        1","site":"YouTube","size":720,"type":"Trailer"}]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:06 GMT
-recorded_with: VCR 3.0.1
+      string: '{"id":550,"results":[{"id":"5c9294240e0a267cd516835f","iso_639_1":"en","iso_3166_1":"US","key":"BdJKm16Co6M","name":"Fight
+        Club | #TBT Trailer | 20th Century FOX","site":"YouTube","size":1080,"type":"Trailer"},{"id":"5e382d1b4ca676001453826d","iso_639_1":"en","iso_3166_1":"US","key":"6JnN1DmbqoU","name":"Fight
+        Club - Theatrical Trailer Remastered in HD","site":"YouTube","size":1080,"type":"Trailer"}]}'
+  recorded_at: Sun, 28 Jun 2020 05:22:48 GMT
+recorded_with: VCR 6.0.0

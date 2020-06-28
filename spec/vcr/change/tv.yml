@@ -9,67 +9,62 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=600
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:16:59 GMT
-      Etag:
-      - W/"876a8d39dc3438550db4902ea8cf6384"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - MISS, STORE
-      X-Memc-Age:
-      - '0'
-      X-Memc-Expires:
-      - '600'
-      X-Memc-Key:
-      - b7d84c11a355df739c7bbf385d2423b2
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '35'
-      X-Ratelimit-Reset:
-      - '1455031026'
-      Content-Length:
-      - '470'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:22:39 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=600
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - ee813945c1c2f8fec37f6d28099675ca
+      X-Memc-Age:
+      - '498'
+      X-Memc-Expires:
+      - '102'
+      Etag:
+      - W/"c0ade48235e3ebeb9c4fb1745f0125b6"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:22:39 GMT
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 52fa887ba82513d16e3f586c3db681fe.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - galpN0-g2CGGGZsvSYjR5wwVjeoU9mO6VWtK_sZp2lD6kW6LII71rw==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAA3WWy0oEMRBF/6XXs0g9k8yviMiAowiNijOuxH+3GnyA9Old
-        55LcyqlKJR/L2/nyvl4vy/HmY3m6X46eau2wnO5rdDk+nNbL+fPwLTWbAVJM
-        6SA1TweJxisGMhrdZF+yHG3uSx5DacGSBkvg5dEnSsMJYAxjL6PgUwVBtQ7Y
-        I3KCV3qI7UsRriT1MN2XRCIhjDRJApWiMMvHbBC8iSuEUTQEpLIKYijWYMvi
-        kvuK9aSizmIIszKsQ5JtWgCnbUHglCEDvKqgiKCTkWZA5aYPRKs5YEHTTtTT
-        OfnmAEli6t92n9/X9S9TBqtZwsHvqRCbu1IzS6tvX4reJ0gqlIsxqZi3rMMk
-        bdTMtiqiyGs9wFqzqGNJT1B8jITSy3C6QrRRUzK3oPVkEvTqw6DU0UhA6zkm
-        WZl0qIpqBhC6eAMn0wYgJoyrOeS2tkpKkn8lYl8wpYrMUOps4tSHig1E4ElZ
-        3XzAqLo1nc268AwwxMgGXrUp7K4e1A9rV3Bisq4MIOt1M0CA2xEEySxJSmmE
-        MC1ox94alYvVK46Sr20Q+NkBk3nS02VL8f+SuT0sr6fHc+E9LNeX62m9237r
-        Aao//79P0roiPr8AYsyp2KIKAAA=
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:16:59 GMT
-recorded_with: VCR 3.0.1
+      string: '{"results":[{"id":34757,"adult":false},{"id":69629,"adult":false},{"id":958,"adult":false},{"id":83631,"adult":false},{"id":67904,"adult":false},{"id":3459,"adult":false},{"id":33907,"adult":false},{"id":31766,"adult":false},{"id":79176,"adult":false},{"id":11828,"adult":false},{"id":90319,"adult":false},{"id":61337,"adult":false},{"id":105353,"adult":false},{"id":105301,"adult":false},{"id":7704,"adult":false},{"id":36024,"adult":false},{"id":105351,"adult":false},{"id":87862,"adult":false},{"id":105349,"adult":false},{"id":61443,"adult":false},{"id":105348,"adult":false},{"id":105347,"adult":false},{"id":79086,"adult":false},{"id":217,"adult":false},{"id":105346,"adult":false},{"id":105345,"adult":false},{"id":105343,"adult":false},{"id":105342,"adult":false},{"id":21268,"adult":false},{"id":99538,"adult":false},{"id":44134,"adult":false},{"id":105341,"adult":false},{"id":186,"adult":false},{"id":1068,"adult":false},{"id":29152,"adult":false},{"id":23374,"adult":false},{"id":60059,"adult":false},{"id":65965,"adult":false},{"id":98034,"adult":false},{"id":70299,"adult":false},{"id":13850,"adult":false},{"id":8664,"adult":false},{"id":83519,"adult":false},{"id":104960,"adult":false},{"id":1892,"adult":false},{"id":30991,"adult":false},{"id":97419,"adult":false},{"id":43957,"adult":false},{"id":87784,"adult":false},{"id":103727,"adult":false},{"id":71446,"adult":false},{"id":105339,"adult":false},{"id":34701,"adult":false},{"id":86066,"adult":false},{"id":79649,"adult":false},{"id":69773,"adult":false},{"id":88987,"adult":false},{"id":105338,"adult":false},{"id":17016,"adult":false},{"id":104877,"adult":false},{"id":84259,"adult":false},{"id":31098,"adult":false},{"id":105248,"adult":false},{"id":101139,"adult":false},{"id":45253,"adult":false},{"id":83251,"adult":false},{"id":92821,"adult":false},{"id":77701,"adult":false},{"id":71383,"adult":false},{"id":2468,"adult":false},{"id":28954,"adult":false},{"id":89334,"adult":false},{"id":1403,"adult":false},{"id":68507,"adult":false},{"id":1418,"adult":false},{"id":34201,"adult":false},{"id":2661,"adult":false},{"id":4556,"adult":false},{"id":32236,"adult":false},{"id":103830,"adult":false},{"id":46388,"adult":false},{"id":93905,"adult":false},{"id":73347,"adult":false},{"id":80539,"adult":false},{"id":8654,"adult":false},{"id":39176,"adult":false},{"id":63926,"adult":false},{"id":66893,"adult":false},{"id":77141,"adult":false},{"id":83685,"adult":false},{"id":6292,"adult":false},{"id":105315,"adult":false},{"id":67687,"adult":false},{"id":103251,"adult":false},{"id":71328,"adult":false},{"id":4482,"adult":false},{"id":105161,"adult":false},{"id":67307,"adult":false},{"id":103722,"adult":false},{"id":101546,"adult":false},{"id":102360,"adult":false},{"id":104818,"adult":false},{"id":34083,"adult":false},{"id":55481,"adult":false},{"id":5829,"adult":false},{"id":32692,"adult":false},{"id":81144,"adult":false},{"id":97604,"adult":false},{"id":65080,"adult":false},{"id":101484,"adult":false},{"id":103557,"adult":false},{"id":12409,"adult":false},{"id":37537,"adult":false},{"id":105006,"adult":false},{"id":34114,"adult":false},{"id":39052,"adult":false},{"id":21289,"adult":false},{"id":88239,"adult":false},{"id":87092,"adult":false},{"id":30001,"adult":false},{"id":57210,"adult":false},{"id":49441,"adult":false},{"id":34833,"adult":false},{"id":65282,"adult":false},{"id":4333,"adult":false},{"id":91121,"adult":false},{"id":71896,"adult":false},{"id":104983,"adult":false},{"id":67355,"adult":false},{"id":72670,"adult":false},{"id":81698,"adult":null},{"id":102966,"adult":false},{"id":1991,"adult":false},{"id":99858,"adult":false},{"id":97586,"adult":false},{"id":96420,"adult":false},{"id":85727,"adult":false},{"id":87689,"adult":false},{"id":95110,"adult":false},{"id":105333,"adult":false},{"id":6005,"adult":false},{"id":98843,"adult":false},{"id":104735,"adult":false},{"id":94059,"adult":false},{"id":96102,"adult":false},{"id":43191,"adult":false},{"id":99480,"adult":false},{"id":104388,"adult":false},{"id":104247,"adult":false},{"id":103425,"adult":false},{"id":31217,"adult":false},{"id":96864,"adult":true},{"id":105352,"adult":false},{"id":35243,"adult":false},{"id":103924,"adult":false},{"id":101461,"adult":false},{"id":16169,"adult":false},{"id":62126,"adult":false},{"id":105041,"adult":false},{"id":105278,"adult":false},{"id":66599,"adult":false},{"id":99595,"adult":false},{"id":34813,"adult":false},{"id":105317,"adult":false},{"id":105311,"adult":false},{"id":71769,"adult":false},{"id":67683,"adult":false},{"id":71146,"adult":false},{"id":43390,"adult":false},{"id":31679,"adult":false},{"id":24726,"adult":false},{"id":4551,"adult":false},{"id":105310,"adult":false},{"id":91977,"adult":false},{"id":105308,"adult":false},{"id":104087,"adult":false},{"id":82582,"adult":false},{"id":40195,"adult":false},{"id":105144,"adult":false},{"id":16321,"adult":false},{"id":37606,"adult":false},{"id":74020,"adult":false},{"id":26563,"adult":false},{"id":1384,"adult":false},{"id":87108,"adult":false},{"id":70198,"adult":false},{"id":62734,"adult":false},{"id":105203,"adult":false},{"id":19885,"adult":false},{"id":96608,"adult":false},{"id":101906,"adult":false},{"id":103135,"adult":false},{"id":3769,"adult":false},{"id":91683,"adult":false},{"id":10466,"adult":false},{"id":46302,"adult":false},{"id":160,"adult":false},{"id":104991,"adult":false},{"id":80219,"adult":true},{"id":30806,"adult":false},{"id":65405,"adult":false},{"id":4419,"adult":false},{"id":12908,"adult":false},{"id":91928,"adult":false},{"id":84977,"adult":false},{"id":103776,"adult":false},{"id":4467,"adult":false},{"id":68921,"adult":false},{"id":104308,"adult":false},{"id":92137,"adult":false},{"id":105305,"adult":false},{"id":42795,"adult":false},{"id":71225,"adult":false},{"id":98827,"adult":false},{"id":61385,"adult":false},{"id":97590,"adult":false},{"id":224,"adult":false},{"id":63532,"adult":false},{"id":104324,"adult":false},{"id":75291,"adult":false},{"id":94923,"adult":false},{"id":95675,"adult":false},{"id":105304,"adult":false},{"id":3231,"adult":false},{"id":2026,"adult":false},{"id":105312,"adult":false},{"id":71641,"adult":false},{"id":85958,"adult":false},{"id":105287,"adult":false},{"id":63601,"adult":false},{"id":97878,"adult":false},{"id":13821,"adult":false},{"id":14814,"adult":false},{"id":94738,"adult":false},{"id":62852,"adult":false},{"id":85123,"adult":false},{"id":58474,"adult":false},{"id":1097,"adult":false},{"id":97859,"adult":false},{"id":105303,"adult":false},{"id":96161,"adult":false},{"id":68272,"adult":false},{"id":105309,"adult":false},{"id":80623,"adult":false},{"id":105344,"adult":false},{"id":88884,"adult":false},{"id":103787,"adult":false},{"id":93149,"adult":false},{"id":101099,"adult":false},{"id":72288,"adult":false},{"id":11294,"adult":false},{"id":102790,"adult":true},{"id":46033,"adult":false},{"id":85426,"adult":false},{"id":105288,"adult":false},{"id":14424,"adult":false},{"id":79112,"adult":false},{"id":99312,"adult":false},{"id":99607,"adult":false},{"id":246,"adult":false},{"id":96462,"adult":false},{"id":35585,"adult":false},{"id":96160,"adult":false},{"id":105219,"adult":false},{"id":30876,"adult":false},{"id":105316,"adult":false},{"id":37854,"adult":false},{"id":10027,"adult":false},{"id":88702,"adult":false},{"id":101790,"adult":null},{"id":72785,"adult":false},{"id":91291,"adult":false},{"id":17937,"adult":false},{"id":3764,"adult":false},{"id":104691,"adult":false},{"id":37873,"adult":false},{"id":94423,"adult":false},{"id":59878,"adult":false},{"id":35338,"adult":false},{"id":103773,"adult":false},{"id":48866,"adult":false},{"id":6390,"adult":false},{"id":13941,"adult":false},{"id":45016,"adult":false},{"id":79026,"adult":false},{"id":100762,"adult":false},{"id":4398,"adult":false},{"id":105329,"adult":false},{"id":93811,"adult":false},{"id":82766,"adult":false},{"id":101547,"adult":false},{"id":105125,"adult":false},{"id":94060,"adult":false},{"id":61692,"adult":false},{"id":7562,"adult":false},{"id":44305,"adult":false},{"id":1916,"adult":false},{"id":85021,"adult":false},{"id":81729,"adult":false},{"id":96860,"adult":false},{"id":101973,"adult":false},{"id":3470,"adult":false},{"id":94797,"adult":false},{"id":102977,"adult":false},{"id":44573,"adult":false},{"id":70523,"adult":false},{"id":105307,"adult":false},{"id":97652,"adult":true},{"id":97656,"adult":false},{"id":105306,"adult":false},{"id":93241,"adult":false},{"id":96106,"adult":false},{"id":74802,"adult":false},{"id":62763,"adult":false},{"id":98669,"adult":false},{"id":85732,"adult":true},{"id":103026,"adult":false},{"id":19649,"adult":false},{"id":103465,"adult":false},{"id":75547,"adult":false},{"id":93649,"adult":false},{"id":31678,"adult":false},{"id":6647,"adult":false},{"id":105101,"adult":false},{"id":90811,"adult":false},{"id":194,"adult":false},{"id":86429,"adult":false},{"id":104189,"adult":false},{"id":46434,"adult":false},{"id":46097,"adult":false},{"id":95790,"adult":true},{"id":97583,"adult":true},{"id":68497,"adult":false},{"id":89899,"adult":false},{"id":90713,"adult":false},{"id":36160,"adult":false},{"id":10610,"adult":false},{"id":32868,"adult":false},{"id":4500,"adult":false},{"id":105319,"adult":false},{"id":65930,"adult":false},{"id":86031,"adult":false},{"id":103554,"adult":false},{"id":84806,"adult":false},{"id":82060,"adult":false},{"id":74957,"adult":false},{"id":103760,"adult":false},{"id":104989,"adult":false},{"id":105089,"adult":false},{"id":39297,"adult":false},{"id":9542,"adult":false},{"id":95697,"adult":false},{"id":95515,"adult":false},{"id":99624,"adult":false},{"id":104584,"adult":false},{"id":103767,"adult":false},{"id":93289,"adult":false},{"id":102971,"adult":false},{"id":96481,"adult":false},{"id":1421,"adult":false},{"id":97710,"adult":false},{"id":14236,"adult":false},{"id":69537,"adult":false},{"id":103825,"adult":false},{"id":6576,"adult":false},{"id":66111,"adult":false},{"id":88557,"adult":false},{"id":105324,"adult":false},{"id":72787,"adult":false},{"id":105177,"adult":false},{"id":105314,"adult":false},{"id":83095,"adult":false},{"id":19612,"adult":false},{"id":42594,"adult":false},{"id":105340,"adult":false},{"id":83121,"adult":false},{"id":95442,"adult":false},{"id":105318,"adult":false},{"id":104207,"adult":false},{"id":46195,"adult":false},{"id":93890,"adult":false},{"id":2835,"adult":false},{"id":100474,"adult":null},{"id":103445,"adult":false},{"id":6132,"adult":false},{"id":35006,"adult":false},{"id":44230,"adult":true},{"id":73954,"adult":null},{"id":91681,"adult":false},{"id":474,"adult":false},{"id":39340,"adult":false},{"id":105320,"adult":false},{"id":31665,"adult":false},{"id":65817,"adult":false},{"id":105321,"adult":false},{"id":48891,"adult":false},{"id":74217,"adult":false},{"id":1871,"adult":false},{"id":94415,"adult":false},{"id":104313,"adult":false},{"id":44187,"adult":false},{"id":69478,"adult":false},{"id":72750,"adult":false},{"id":96346,"adult":false},{"id":91875,"adult":false},{"id":42902,"adult":false},{"id":103460,"adult":false},{"id":76307,"adult":false},{"id":34736,"adult":false},{"id":73068,"adult":false},{"id":52562,"adult":false},{"id":103786,"adult":false},{"id":84154,"adult":false},{"id":103756,"adult":false},{"id":42069,"adult":null},{"id":100077,"adult":false},{"id":105291,"adult":false},{"id":98707,"adult":true},{"id":14384,"adult":false},{"id":34207,"adult":false},{"id":104105,"adult":false},{"id":78173,"adult":false},{"id":105334,"adult":false},{"id":64852,"adult":false},{"id":105322,"adult":false},{"id":61148,"adult":false},{"id":105323,"adult":false},{"id":74402,"adult":false},{"id":80986,"adult":false},{"id":76892,"adult":false},{"id":16461,"adult":false},{"id":105331,"adult":false},{"id":104959,"adult":false},{"id":79611,"adult":false},{"id":62285,"adult":false},{"id":101005,"adult":false},{"id":77961,"adult":false},{"id":105055,"adult":false},{"id":31934,"adult":false},{"id":73544,"adult":false},{"id":62865,"adult":false},{"id":77117,"adult":false},{"id":6919,"adult":false},{"id":105336,"adult":false},{"id":18202,"adult":false},{"id":105313,"adult":false},{"id":75685,"adult":false},{"id":74043,"adult":false},{"id":104750,"adult":false},{"id":62099,"adult":false},{"id":71904,"adult":false},{"id":105325,"adult":false},{"id":82660,"adult":false},{"id":95071,"adult":false},{"id":72844,"adult":false},{"id":66573,"adult":false},{"id":105326,"adult":false},{"id":88592,"adult":false},{"id":7217,"adult":false},{"id":94235,"adult":false},{"id":96203,"adult":false},{"id":99495,"adult":false},{"id":75626,"adult":false},{"id":33189,"adult":false},{"id":4400,"adult":false},{"id":68324,"adult":false},{"id":96958,"adult":false},{"id":92592,"adult":false},{"id":105327,"adult":false},{"id":63145,"adult":false},{"id":62320,"adult":false},{"id":1823,"adult":false},{"id":105328,"adult":false},{"id":105330,"adult":false},{"id":88045,"adult":true},{"id":100662,"adult":false},{"id":1570,"adult":false},{"id":69980,"adult":false},{"id":99799,"adult":false},{"id":103091,"adult":false},{"id":105350,"adult":false},{"id":92182,"adult":false},{"id":86423,"adult":false},{"id":18347,"adult":false},{"id":34170,"adult":false},{"id":93,"adult":false},{"id":26062,"adult":false},{"id":88921,"adult":false},{"id":43896,"adult":false},{"id":86248,"adult":false},{"id":456,"adult":false},{"id":1412,"adult":false},{"id":100717,"adult":false},{"id":2354,"adult":false},{"id":18197,"adult":false},{"id":3172,"adult":false},{"id":10938,"adult":false},{"id":79680,"adult":false},{"id":77213,"adult":false},{"id":17118,"adult":false},{"id":64016,"adult":false},{"id":103479,"adult":false},{"id":12100,"adult":false},{"id":64339,"adult":false},{"id":96989,"adult":false},{"id":3934,"adult":false},{"id":102182,"adult":false},{"id":32388,"adult":false},{"id":78297,"adult":false},{"id":68421,"adult":false},{"id":1463,"adult":false},{"id":105332,"adult":false},{"id":86823,"adult":false},{"id":14956,"adult":false},{"id":28196,"adult":false},{"id":45871,"adult":false},{"id":63152,"adult":false},{"id":76479,"adult":false},{"id":105282,"adult":false},{"id":102815,"adult":false},{"id":34942,"adult":false},{"id":18540,"adult":false},{"id":83002,"adult":false},{"id":90955,"adult":false},{"id":41692,"adult":false},{"id":1429,"adult":false},{"id":88801,"adult":false},{"id":70699,"adult":true},{"id":103619,"adult":null},{"id":2093,"adult":false},{"id":74577,"adult":false},{"id":64706,"adult":false},{"id":103411,"adult":false},{"id":71308,"adult":false},{"id":103578,"adult":false},{"id":104972,"adult":false},{"id":85220,"adult":false},{"id":88376,"adult":false},{"id":10500,"adult":false},{"id":38935,"adult":false},{"id":52103,"adult":false},{"id":105335,"adult":false},{"id":63451,"adult":false},{"id":2595,"adult":false},{"id":3556,"adult":false},{"id":4266,"adult":false},{"id":24584,"adult":false},{"id":41407,"adult":false},{"id":105337,"adult":false}],"page":1,"total_pages":1,"total_results":1}'
+  recorded_at: Sun, 28 Jun 2020 05:22:40 GMT
+recorded_with: VCR 6.0.0

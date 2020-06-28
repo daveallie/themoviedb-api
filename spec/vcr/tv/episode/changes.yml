@@ -9,53 +9,61 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=300
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:15 GMT
-      Etag:
-      - '"58054390ee03de09d2e7b5e74f5560a0"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - MISS, STORE
-      X-Memc-Age:
-      - '0'
-      X-Memc-Expires:
-      - '300'
-      X-Memc-Key:
-      - 6357337fdc85df5187f60b7b494d65d8
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '4'
-      X-Ratelimit-Reset:
-      - '1455031036'
       Content-Length:
       - '935'
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:23:03 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=300
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - d1fe0be6639d720d34175a47f2dbeb51
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '300'
+      Etag:
+      - W/"eb8f304d96ea772324b66ddc877c8c91"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:23:03 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 4507fe7df8410726135c5afe328b2149.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - ul29DzunOXPz7ki5PU_bDNE6NBYHVk3fBi-aDKYX_xFtOJ-pkh929w==
     body:
       encoding: UTF-8
-      string: '{"changes":[{"key":"name","items":[{"id":"55820667c3a3686fb1000201","action":"added","time":"2015-06-17
-        23:44:39 UTC","iso_639_1":"nl","value":"Fire and Blood"}]},{"key":"overview","items":[{"id":"55820667c3a3686fb1000202","action":"added","time":"2015-06-17
+      string: '{"changes":[{"key":"overview","items":[{"id":"55820667c3a3686fb1000202","action":"added","time":"2015-06-17
         23:44:39 UTC","iso_639_1":"nl","value":"Terwijl het tragische nieuws zich
         doorheen de Zeven Koninkrijken verspreidt, delen Bran en Rickon een profetische
         droom. Catelyn ondervraagt Jaime over de val van haar zoon en Robbs toekomst
@@ -64,7 +72,7 @@ http_interactions:
         Landing te ontsnappen. Sansa wordt geterroriseerd door Joffrey. Aan de Muur
         wordt Jon gedwongen om te kiezen tussen de Nachtwacht en de familie die hij
         achterliet. Aan de andere kant van de zee betaalt Dany een vreselijke prijs
-        voor haar liefde. Tegelijk vindt ze nieuwe hoop."}]}]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:15 GMT
-recorded_with: VCR 3.0.1
+        voor haar liefde. Tegelijk vindt ze nieuwe hoop."}]},{"key":"name","items":[{"id":"55820667c3a3686fb1000201","action":"added","time":"2015-06-17
+        23:44:39 UTC","iso_639_1":"nl","value":"Fire and Blood"}]}]}'
+  recorded_at: Sun, 28 Jun 2020 05:23:03 GMT
+recorded_with: VCR 6.0.0

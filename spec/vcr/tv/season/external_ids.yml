@@ -9,52 +9,60 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:18 GMT
-      Etag:
-      - '"74308c5a56323a03173b6056616f25c3"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '6600'
-      X-Memc-Expires:
-      - '22200'
-      X-Memc-Key:
-      - 7ea786aca555f85081317b6768814ade
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '32'
-      X-Ratelimit-Reset:
-      - '1455031046'
       Content-Length:
       - '107'
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:23:06 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - 7ea786aca555f85081317b6768814ade
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '21600'
+      Etag:
+      - W/"926e50e9ce6bd7796e847a2e8c2680a7"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:23:06 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 0b0c68b7b5c3bef408aa83b176024b1f.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - Xakk2gggZLZm2Z-9OntCbdoKxo3ZFWljp80iQGpKXxnm0SPMSOlKhw==
     body:
       encoding: UTF-8
-      string: '{"freebase_mid":"/m/05ddtqw","freebase_id":"/en/kojak_season_1","tvdb_id":2547,"tvrage_id":null,"id":10838}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:18 GMT
-recorded_with: VCR 3.0.1
+      string: '{"id":10838,"freebase_mid":"/m/05ddtqw","freebase_id":"/en/kojak_season_1","tvdb_id":2547,"tvrage_id":null}'
+  recorded_at: Sun, 28 Jun 2020 05:23:06 GMT
+recorded_with: VCR 6.0.0

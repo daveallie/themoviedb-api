@@ -9,53 +9,71 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:21 GMT
-      Etag:
-      - '"4462cc2797d85f06bab506e2edf3d527"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '10165'
-      X-Memc-Expires:
-      - '18635'
-      X-Memc-Key:
-      - 719287b62ba4fcdfb83f693a60c9eeed
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '17'
-      X-Ratelimit-Reset:
-      - '1455031046'
-      Content-Length:
-      - '180'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:23:10 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 719287b62ba4fcdfb83f693a60c9eeed
+      X-Memc-Age:
+      - '5604'
+      X-Memc-Expires:
+      - '15996'
+      Etag:
+      - W/"7c0629a320c82126c9df2a648289a251"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:23:10 GMT
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 38264aca9bab114a0bd19db8ab8521dd.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - TcuxG-18Q_X6kcU7C1LjKBLaQ1lupTSIaXaKT-nOhxuEddY_TU0zaA==
     body:
-      encoding: UTF-8
-      string: '{"id":1396,"results":[{"id":"5335e299c3a368265000001d","iso_639_1":"en","key":"6OdIbPMU720","name":"Opening
-        Credits (Short)","site":"YouTube","size":480,"type":"Opening Credits"}]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:21 GMT
-recorded_with: VCR 3.0.1
+      encoding: ASCII-8BIT
+      string: '{"id":1396,"results":[{"id":"5759db2fc3a3683e7c003df7","iso_639_1":"en","iso_3166_1":"US","key":"XZ8daibM3AE","name":"BREAKING
+        BAD - Seasons 1-5 Trailer","site":"YouTube","size":720,"type":"Trailer"},{"id":"5c5e620b0e0a261de16958fa","iso_639_1":"en","iso_3166_1":"US","key":"HhesaQXLuRY","name":"Breaking
+        Bad Trailer (First Season)","site":"YouTube","size":1080,"type":"Trailer"},{"id":"5c5e5f95925141337fbd7a6e","iso_639_1":"en","iso_3166_1":"US","key":"TPZJHsQqT9I","name":"Walt
+        and Jesse vs. Tuco - Breaking Bad: S2 E2 Clip","site":"YouTube","size":1080,"type":"Clip"},{"id":"5c5e5f6cc3a3683a468cc973","iso_639_1":"en","iso_3166_1":"US","key":"Kj3QxYnymgI","name":"Behind
+        the Scenes Bloopers - Breaking Bad: S3 (Part 1)","site":"YouTube","size":1080,"type":"Featurette"},{"id":"5c5e5f329251413381bd6c7b","iso_639_1":"en","iso_3166_1":"US","key":"ISw9x9WVihM","name":"Gus
+        Fring Offers Walter White a Deal - Breaking Bad: S3 E1 Clip","site":"YouTube","size":1080,"type":"Clip"},{"id":"5c5e5f0c925141337cbd585f","iso_639_1":"en","iso_3166_1":"US","key":"9-eQU4kw4Q4","name":"Gus
+        Fring Explains \"What it Means to be a Man\" to Walter White - S3 E5 Clip
+        #BreakingBad","site":"YouTube","size":1080,"type":"Clip"},{"id":"5c5e5ed192514150c2bca2b2","iso_639_1":"en","iso_3166_1":"US","key":"yp2G586zOEE","name":"Jesse
+        Pinkman Turns Down Walter White''s Offer - S3 E7 Clip #BreakingBad","site":"YouTube","size":1080,"type":"Clip"},{"id":"5c5e5e62925141338cbd76ba","iso_639_1":"en","iso_3166_1":"US","key":"zAjJYkUnTEs","name":"I
+        Am The Danger - S4 E6 Clip #BreakingBad","site":"YouTube","size":1080,"type":"Clip"}]}'
+  recorded_at: Sun, 28 Jun 2020 05:23:10 GMT
+recorded_with: VCR 6.0.0

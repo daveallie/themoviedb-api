@@ -9,52 +9,61 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:09 GMT
-      Etag:
-      - '"433f5360ed09b9f04908e105972723ec"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '6602'
-      X-Memc-Expires:
-      - '22198'
-      X-Memc-Key:
-      - 7e4d8fd1ff83ef6ba02eea84690ca29c
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '26'
-      X-Ratelimit-Reset:
-      - '1455031036'
       Content-Length:
-      - '33'
+      - '126'
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:22:53 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - 3540a96bf3d504c45feafacb39c2c7e9
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '21600'
+      Etag:
+      - W/"d51a772ba3fea1e7fe243b7aa4fce0db"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:22:53 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 f3cea93c854337bc785f9b21c41ff66c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - _mRsDoK6YhnYILMTUXDoUL-Tm0R9uYQUkSbld1vDE3LoAWjYdcLyZg==
     body:
       encoding: UTF-8
-      string: '{"id":1,"name":"Fuji Television"}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:09 GMT
-recorded_with: VCR 3.0.1
+      string: '{"headquarters":"Minato, Tokyo Prefecture","homepage":"http://www.fujitv.co.jp","id":1,"name":"Fuji
+        TV","origin_country":"JP"}'
+  recorded_at: Sun, 28 Jun 2020 05:22:53 GMT
+recorded_with: VCR 6.0.0

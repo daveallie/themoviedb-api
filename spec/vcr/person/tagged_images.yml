@@ -2,157 +2,85 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.themoviedb.org/3/person/287/tagged_images?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    uri: http://api.themoviedb.org/3/person/1245/tagged_images?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
     body:
       encoding: US-ASCII
       string: ''
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:11 GMT
-      Etag:
-      - W/"cee686edd23df50bb086c30d0728345e"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '26765'
-      X-Memc-Expires:
-      - '2035'
-      X-Memc-Key:
-      - 8df5a796b8ab6cee09ffc8d0b47cd29c
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '19'
-      X-Ratelimit-Reset:
-      - '1455031036'
-      Content-Length:
-      - '4219'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:48:06 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=7200
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 e3cb2b95dc77970fa884677fa82b833f.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - PLInlYOFW7fb-X17QldlLdumK3CEaoJ2iL_k5Lj_APPmNmpfQWuBNg==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        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
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:11 GMT
-recorded_with: VCR 3.0.1
+      string: '{"id":1245,"page":1,"total_results":6,"results":[{"iso_639_1":null,"vote_count":48,"media_type":"movie","file_path":"\/myRzRzCxdfUWjkJWgpHHZ1oGkJd.jpg","aspect_ratio":0.66666666666667,"media":{"popularity":26.302,"vote_count":5916,"video":false,"poster_path":"\/myRzRzCxdfUWjkJWgpHHZ1oGkJd.jpg","id":315837,"adult":false,"backdrop_path":"\/sbRXCEsh35hIiHhc2XQRDZ7hLzH.jpg","original_language":"en","original_title":"Ghost
+        in the Shell","genre_ids":[28,18,878,53],"title":"Ghost in the Shell","vote_average":6,"overview":"In
+        the near future, Major is the first of her kind: a human saved from a terrible
+        crash, then cyber-enhanced to be a perfect soldier devoted to stopping the
+        world''s most dangerous criminals.","release_date":"2017-03-29"},"height":3000,"vote_average":5.586,"width":2000},{"iso_639_1":null,"vote_count":1,"media_type":"movie","file_path":"\/5G5VJfzJvQDJ7ERrD19HaJoKM4U.jpg","aspect_ratio":0.66666666666667,"media":{"popularity":15.255,"vote_count":1007,"video":false,"poster_path":"\/lXSKWcUfPgPZnT2Sj7qjQjQImOz.jpg","id":512,"adult":false,"backdrop_path":"\/uAq7xPyAFQVjYsZ3Q0CvPc7qzYy.jpg","original_language":"en","original_title":"Scoop","genre_ids":[35,9648],"title":"Scoop","vote_average":6.6,"overview":"An
+        American journalism student in London scoops a big story, and begins an affair
+        with an aristocrat as the incident unfurls.","release_date":"2006-07-27"},"height":1500,"vote_average":5.312,"width":1000},{"iso_639_1":null,"vote_count":10,"media_type":"movie","file_path":"\/nrLIFLCRwGjvuRbKn1fUjmU7X5A.jpg","aspect_ratio":0.66666666666667,"media":{"popularity":26.302,"vote_count":5916,"video":false,"poster_path":"\/myRzRzCxdfUWjkJWgpHHZ1oGkJd.jpg","id":315837,"adult":false,"backdrop_path":"\/sbRXCEsh35hIiHhc2XQRDZ7hLzH.jpg","original_language":"en","original_title":"Ghost
+        in the Shell","genre_ids":[28,18,878,53],"title":"Ghost in the Shell","vote_average":6,"overview":"In
+        the near future, Major is the first of her kind: a human saved from a terrible
+        crash, then cyber-enhanced to be a perfect soldier devoted to stopping the
+        world''s most dangerous criminals.","release_date":"2017-03-29"},"height":3000,"vote_average":5.27,"width":2000},{"iso_639_1":null,"vote_count":4,"media_type":"movie","file_path":"\/vsmekQlXbUbjSES2Rt7W2i29NIx.jpg","aspect_ratio":0.6752,"media":{"popularity":25.168,"vote_count":0,"video":false,"poster_path":"\/uAUCHOYwFKQvSRZByP8rCgWKwT.jpg","id":497698,"adult":false,"backdrop_path":"\/8N0OhgolMmt8lML70slyPZpE9qY.jpg","original_language":"en","original_title":"Black
+        Widow","genre_ids":[28,12,53],"title":"Black Widow","vote_average":0,"overview":"Natasha
+        Romanoff, also known as Black Widow, confronts the darker parts of her ledger
+        when a dangerous conspiracy with ties to her past arises. Pursued by a force
+        that will stop at nothing to bring her down, Natasha must deal with her history
+        as a spy and the broken relationships left in her wake long before she became
+        an Avenger.","release_date":"2020-10-28"},"height":2500,"vote_average":5.118,"width":1688},{"iso_639_1":null,"vote_count":3,"media_type":"movie","file_path":"\/2z2ZytvEeby180J1EOEJELaKot0.jpg","aspect_ratio":0.70126227208976,"media":{"popularity":25.168,"vote_count":0,"video":false,"poster_path":"\/uAUCHOYwFKQvSRZByP8rCgWKwT.jpg","id":497698,"adult":false,"backdrop_path":"\/8N0OhgolMmt8lML70slyPZpE9qY.jpg","original_language":"en","original_title":"Black
+        Widow","genre_ids":[28,12,53],"title":"Black Widow","vote_average":0,"overview":"Natasha
+        Romanoff, also known as Black Widow, confronts the darker parts of her ledger
+        when a dangerous conspiracy with ties to her past arises. Pursued by a force
+        that will stop at nothing to bring her down, Natasha must deal with her history
+        as a spy and the broken relationships left in her wake long before she became
+        an Avenger.","release_date":"2020-10-28"},"height":1426,"vote_average":5.044,"width":1000},{"iso_639_1":null,"vote_count":6,"media_type":"movie","file_path":"\/sRhaJ6D3x6gQB0swrV0UDqMwHJu.jpg","aspect_ratio":0.66666666666667,"media":{"popularity":25.168,"vote_count":0,"video":false,"poster_path":"\/uAUCHOYwFKQvSRZByP8rCgWKwT.jpg","id":497698,"adult":false,"backdrop_path":"\/8N0OhgolMmt8lML70slyPZpE9qY.jpg","original_language":"en","original_title":"Black
+        Widow","genre_ids":[28,12,53],"title":"Black Widow","vote_average":0,"overview":"Natasha
+        Romanoff, also known as Black Widow, confronts the darker parts of her ledger
+        when a dangerous conspiracy with ties to her past arises. Pursued by a force
+        that will stop at nothing to bring her down, Natasha must deal with her history
+        as a spy and the broken relationships left in her wake long before she became
+        an Avenger.","release_date":"2020-10-28"},"height":3000,"vote_average":4.996,"width":2000}],"total_pages":1}'
+  recorded_at: Sun, 28 Jun 2020 05:48:06 GMT
+recorded_with: VCR 6.0.0

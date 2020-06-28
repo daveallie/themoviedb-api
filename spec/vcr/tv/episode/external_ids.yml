@@ -9,52 +9,60 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:16 GMT
-      Etag:
-      - '"0cda9c766340b9d16b3dbdc1f067bf42"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '6600'
-      X-Memc-Expires:
-      - '22200'
-      X-Memc-Key:
-      - 4f59bf153ca147795b2b418563394198
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '39'
-      X-Ratelimit-Reset:
-      - '1455031046'
       Content-Length:
-      - '104'
+      - '115'
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:23:04 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - 4f59bf153ca147795b2b418563394198
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '21600'
+      Etag:
+      - W/"ebaf2025550050b1b22f664aa59c7b03"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:23:04 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 7deef1b127ef20298bc2b899e7c84e4a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - gsJoNuAu_Nf4Y-NBiMG_UXU6_lFXEtkBnDbbN8WgO8lqM0LkBb-D9w==
     body:
       encoding: UTF-8
-      string: '{"imdb_id":"","freebase_mid":"/m/06x0z6m","freebase_id":"","tvdb_id":null,"tvrage_id":93817,"id":255746}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:16 GMT
-recorded_with: VCR 3.0.1
+      string: '{"id":255746,"imdb_id":"tt0621366","freebase_mid":"/m/06x0z6m","freebase_id":null,"tvdb_id":null,"tvrage_id":93817}'
+  recorded_at: Sun, 28 Jun 2020 05:23:04 GMT
+recorded_with: VCR 6.0.0

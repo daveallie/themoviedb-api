@@ -9,60 +9,67 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=21600
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:01 GMT
-      Etag:
-      - '"53e2cd300aecbfd4a584d42c278b8f52"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '3943'
-      X-Memc-Expires:
-      - '17657'
-      X-Memc-Key:
-      - feaa674eaffd6e230b76773b53c17993
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '25'
-      X-Ratelimit-Reset:
-      - '1455031026'
       Content-Length:
-      - '939'
+      - '776'
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:22:42 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - feaa674eaffd6e230b76773b53c17993
+      X-Memc-Age:
+      - '16061'
+      X-Memc-Expires:
+      - '5539'
+      Etag:
+      - W/"ebb296977a3f255f73b6add107d54c3c"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:22:42 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 0fdd8a19a9733146290bbb49eeceb280.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - Kf55Wklithv5ABEaIs6IoxkieYdqqbAK1rNhNHanXJebW_nK63rlpw==
     body:
       encoding: UTF-8
-      string: '{"movie_results":[{"adult":false,"backdrop_path":"/n2vIGWw4ezslXjlP0VNxkp9wqwU.jpg","genre_ids":[16,10751],"id":12,"original_language":"en","original_title":"Finding
-        Nemo","overview":"A tale which follows the comedic and eventful journeys of
-        two fish, the fretful Marlin and his young son Nemo, who are separated from
-        each other in the Great Barrier Reef when Nemo is unexpectedly taken from
-        his home and thrust into a fish tank in a dentist''s office overlooking Sydney
-        Harbor. Buoyed by the companionship of a friendly but forgetful fish named
-        Dory, the overly cautious Marlin embarks on a dangerous trek and finds himself
-        the unlikely hero of an epic journey to rescue his son.","release_date":"2003-11-29","poster_path":"/zjqInUwldOBa0q07fOyohYCWxWX.jpg","popularity":4.132987,"title":"Finding
-        Nemo","video":false,"vote_average":7.3,"vote_count":2941}],"person_results":[],"tv_results":[],"tv_episode_results":[],"tv_season_results":[]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:01 GMT
-recorded_with: VCR 3.0.1
+      string: '{"movie_results":[{"id":12,"video":false,"vote_count":13695,"vote_average":7.8,"title":"Finding
+        Nemo","release_date":"2003-05-30","original_language":"en","original_title":"Finding
+        Nemo","genre_ids":[16,10751],"backdrop_path":"/dFYguAfeVt19qAbzJ5mArn7DEJw.jpg","adult":false,"overview":"Nemo,
+        an adventurous young clownfish, is unexpectedly taken from his Great Barrier
+        Reef home to a dentist''s office aquarium. It''s up to his worrisome father
+        Marlin and a friendly but forgetful fish Dory to bring Nemo home -- meeting
+        vegetarian sharks, surfer dude turtles, hypnotic jellyfish, hungry seagulls,
+        and more along the way.","poster_path":"/xVNSgrsvpcAHPnyKf2phYxyppNZ.jpg","popularity":30.387}],"person_results":[],"tv_results":[],"tv_episode_results":[],"tv_season_results":[]}'
+  recorded_at: Sun, 28 Jun 2020 05:22:43 GMT
+recorded_with: VCR 6.0.0

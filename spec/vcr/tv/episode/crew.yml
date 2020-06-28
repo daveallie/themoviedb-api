@@ -9,71 +9,79 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:15 GMT
-      Etag:
-      - W/"e499a6e80b96f52688fd72eccb818c3c"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '6600'
-      X-Memc-Expires:
-      - '22200'
-      X-Memc-Key:
-      - 36375be959dcc921d1513d0b95bb5e1b
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '2'
-      X-Ratelimit-Reset:
-      - '1455031036'
-      Content-Length:
-      - '654'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:23:03 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - 36375be959dcc921d1513d0b95bb5e1b
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '21600'
+      Etag:
+      - W/"b8599c46b386545188502ee70387ea9c"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:23:03 GMT
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 f76632e2da946f03169c6377ac2624df.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - z-fEIBj_T9kfjWDX7JzeUzQleoMAyYIT1KTvOBGqWiZ1qzstxcJGxw==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAA52U3VKjMACFX4Xh2lECBIp3bVnFYm0t3Wl1Z8cJECgtEjaE
-        InV8d5Na6fZnrbNXTEjI+XLOCa9ygAomX/56lYMZoihgmMqXsnwmBxSHCXtK
-        Qj6EKjShppnAClQLaiD0ATBUBfNlYh4owLDO5Aw9Y754jNO0ljy0RCkq+Iqc
-        kihJ8VOO2IxPX+R3cJ7cho67sqdZ6/rRGWY9pwrRC3DO53nMvyA0FBTK29l/
-        UGnBhkpXdENrqGyUSVcUrfhGh0hR1bZc6Lfjn8twErWBybLu/WqcJ/V0Fwns
-        I3kxO5c6xPdrqUtJsFhvfxrSQI11EFqwoXTxMskkm/gFyY5wvnTT4N4caI+D
-        ES371eAqWJUPNWr3O+NdTnWf81tUVmtDZbYUCzRQ15jQGH+R6KyMHFaHkdtJ
-        aTW7oa46gR65gRnzd7G072FZu1iB9WmWqukaaDVgfUQX0qgsCt64A6ysTNNG
-        WH/7vVaq1k3/2AvoyjF1Vf1bXYeWKjeCbZFzH2UimxDniLJnnPHbI09owpJM
-        nHRO/M34SNMEk7BgDQANUc/TAL6xBeiRAuczHgUPhAvvUdgJxcEOx8cbckgi
-        X0A8vO95kT4aVte2VvSeg6tuHCmtvrNYhyYci0tcsKeCIVpsjVM0s+FxEF3i
-        WnIxP66I4PRpsLBzrwKf9/0QktyM79jEs6u2OvNLr7wN3WnvcTEdePMPyE8z
-        VQAtY1vZURIsJKekhfDoJJSh6P+EAvtQuxmalmZs0+GPQvJSUiPRkNO6qoj2
-        uK76la4K4fafYaNlEkpDSvj1/JaqLq75cVVtX1W+KOed1dAA7CGt/kzyjkYG
-        L4ssBdPyR9z0ZMNk6sbbOwRP1ntRBgAA
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:15 GMT
-recorded_with: VCR 3.0.1
+      string: '{"cast":[{"character":"Theo Kojak","credit_id":"5257533719c29531db11620e","gender":2,"id":10169,"name":"Telly
+        Savalas","order":0,"profile_path":"/rWJ07MlK7rCjCVMogHoHFrlGj9t.jpg"},{"character":"Frank
+        McNeill","credit_id":"5257533719c29531db11623c","gender":2,"id":40463,"name":"Dan
+        Frazer","order":1,"profile_path":"/tBe7tZ4Hyzs7cnGFSpBiEGcwQII.jpg"},{"character":"Bobby
+        Crocker","credit_id":"5257533719c29531db11626a","gender":2,"id":105595,"name":"Kevin
+        Dobson","order":2,"profile_path":"/szBXwbKYFboFWC7aOMcf5ldieD2.jpg"},{"character":"Curly
+        Stavors","credit_id":"5257533719c29531db116298","gender":2,"id":78091,"name":"George
+        Savalas","order":3,"profile_path":null},{"character":"Percy Saperstein","credit_id":"5257533919c29531db1162c9","gender":2,"id":1234318,"name":"Mark
+        Russell","order":4,"profile_path":"/trlBsJk0zZGfXT3R5yWidh2NcTE.jpg"}],"crew":[{"id":12140,"credit_id":"5257532219c29531db114592","name":"Abby
+        Mann","department":"Writing","job":"Writer","gender":0,"profile_path":null},{"id":15663,"credit_id":"5257532219c29531db1145b6","name":"Joseph
+        Sargent","department":"Directing","job":"Director","gender":2,"profile_path":null},{"id":151454,"credit_id":"59c2fe6f9251415b24002c88","name":"Gerald
+        Perry Finnerman","department":"Camera","job":"Director of Photography","gender":2,"profile_path":null},{"id":1704093,"credit_id":"59c2fe799251415b54002a73","name":"John
+        Kaufman","department":"Editing","job":"Editor","gender":2,"profile_path":null},{"id":7186,"credit_id":"59c2fe8b9251415b32002b0c","name":"John
+        J. Lloyd","department":"Art","job":"Art Direction","gender":2,"profile_path":null}],"guest_stars":[{"id":1037,"name":"Harvey
+        Keitel","credit_id":"5257532219c29531db1145e2","character":"","order":0,"gender":2,"profile_path":"/nmhafZ605lZjs1CLcr9nSletOSd.jpg"},{"id":1215961,"name":"Rick
+        Hurst","credit_id":"5257532219c29531db114604","character":"","order":1,"gender":2,"profile_path":null},{"id":157936,"name":"James
+        Sloyan","credit_id":"5257532219c29531db114626","character":"","order":2,"gender":2,"profile_path":null},{"id":2555,"name":"David
+        Proval","credit_id":"5257532219c29531db114648","character":"","order":3,"gender":2,"profile_path":"/ku3LWQXiJ80nWgs21fKvTMaR6Ui.jpg"}],"id":255746}'
+  recorded_at: Sun, 28 Jun 2020 05:23:03 GMT
+recorded_with: VCR 6.0.0

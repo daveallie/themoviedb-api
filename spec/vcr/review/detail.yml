@@ -9,49 +9,58 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:12 GMT
-      Etag:
-      - '"deb66ac826fe2ad09ee8043df27ed198"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '6601'
-      X-Memc-Expires:
-      - '22199'
-      X-Memc-Key:
-      - 055ef28e055eebb5f2b14761e3eba51b
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '14'
-      X-Ratelimit-Reset:
-      - '1455031036'
       Content-Length:
-      - '852'
+      - '892'
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:22:59 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - 055ef28e055eebb5f2b14761e3eba51b
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '21600'
+      Etag:
+      - W/"517c9d264a80a3788b9df1d4f5996aef"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:22:59 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 88f40be442aecae39e92819a37969961.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - qWY0DLsgbAam8NUrRF9jLpVVMF0k74Squs0_vXtpEWvFjUxA1l6kUA==
     body:
       encoding: UTF-8
       string: '{"id":"5013bc76760ee372cb00253e","author":"Chris","content":"I personally
@@ -64,7 +73,6 @@ http_interactions:
         you like this film will boil down to if you like films Christopher Nolan has
         directed and/or you like the Christopher Nolan Batman series so far.\r\n\r\nStupendously
         good film in my opinion.","iso_639_1":"en","media_id":49026,"media_title":"The
-        Dark Knight Rises","media_type":"Movie","url":"http://j.mp/P18dg1"}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:12 GMT
-recorded_with: VCR 3.0.1
+        Dark Knight Rises","media_type":"Movie","url":"https://www.themoviedb.org/review/5013bc76760ee372cb00253e"}'
+  recorded_at: Sun, 28 Jun 2020 05:22:59 GMT
+recorded_with: VCR 6.0.0

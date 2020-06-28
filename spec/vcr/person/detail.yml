@@ -9,74 +9,51 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:09 GMT
-      Etag:
-      - W/"54ddfd414d487d6d44530c1c688bdc35"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '6656'
-      X-Memc-Expires:
-      - '22144'
-      X-Memc-Key:
-      - 295ceaa7e277f950dfaa70ab1e47bbde
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '25'
-      X-Ratelimit-Reset:
-      - '1455031036'
-      Content-Length:
-      - '790'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:22:53 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=7200
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 31efcfadb9bf42888048a4e21662d761.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - BxO4nuBTPk-6b3hlfpM2_dxfMBTFwQnO0sKhDtbyxgDfl8At2-IuoA==
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        H4sIAAAAAAAAA1VTXW8bNxD8K8Q9tYCsWKgdf7wFRtOgaNMHJw3QqBD2jnt3
-        rEnuhR+ShaD/vbOU3KZ+kEne7uzuzOzXjmz1pbsfyWdedfiV3VOUQ9xR7u4/
-        dz+xpInNJ/JFovmlDpTNz2ltuj9XXe9kSrTMx+6+e5OmSr0/mjKzCZKLcWGR
-        VCgWMzofjItR9lQk4dSCZpdxOxoZTzlsXQ0rcy54qjRILC5W8gDedkvNM9sW
-        zXHPXhbedpqvBQI9uTiZwsMcxct0NNnFoZUxTAkAlo7ZAJRMLtUyGqNiPq4f
-        1w9r8yAxO8sJ8GQONeIIOGv6YwPQPljnoeQ4r4y2Txoa6jDjmBBviguMyBBq
-        dAMV7UZz9y47UFeklXVi+JmHWtxegQ6z5Da79RofKNKkI4oCLUmCw2cmFMGY
-        ija6BG7LnJjNyFRqYmNd4qHV43EE51kpzoJuDnRcmw9NkVgDRiZvch0GzlkB
-        t91joQRxUwaR323ubm6+N0qy8nCWiRO9SLTtcg0Bk/Zehqe+5sJphcTD7IZ5
-        ZSznxRVuoZ7wzSyyVA/KSlPZy8H01U4Mb4DghWMTQcVTJqBMLs77lr8k3pM7
-        cdLaVoxFDpyayIh4JzDFQcTCC5OLvN7GbfwwS51mlSezsoRmJLIhKMm5wJ/u
-        Pwc9LyANMkH50wToavSVYRp7liqrEJb3cp6qr/7pTIZLJnGWmsClRrUplAI3
-        xZOAvScoJeMIXFzn48IpLwRLQiOTW/VB6cGwMroCDlxpNFipfRmrMgGH0ml/
-        8A5OxFftmLA3ePi/fpoK0YCkVoeBqrdG2Q5k+UXOkzDfCAiczEE3F2zDv94F
-        hLxIHvlgAkThGLGd606XPpUZ+Nj5zd3V1cXl9cXmCu8WZjy/4zbDfQusfLo5
-        291v8C/YfqfnLoZL/G1uNTFS0LBv9x6viwdTOxl3rR6+/yogFzxemAe4ARRG
-        R7h8fHyj0f8arbu/Xm9e39zdvcar8up5t1BDeHX75dnF25rK2x8v33+hP96/
-        /fRb/f36h5v+3fqvZer+/gdlWStDDgUAAA==
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:09 GMT
-recorded_with: VCR 3.0.1
+        eyJiaXJ0aGRheSI6IjE5NDQtMDUtMTQiLCJrbm93bl9mb3JfZGVwYXJ0bWVudCI6IkRpcmVjdGluZyIsImRlYXRoZGF5IjpudWxsLCJpZCI6MSwibmFtZSI6Ikdlb3JnZSBMdWNhcyIsImFsc29fa25vd25fYXMiOlsiR2VvcmdlIFdhbHRvbiBMdWNhcyBKci4gIiwi5LmU5rK7wrfljaLljaHmlq8iLCLQlNC20L7RgNC00LYg0JvRg9C60LDRgSIsIuOCuOODp+ODvOOCuOODu+ODq+ODvOOCq+OCuSIsIuC4iOC4reC4o+C5jOC4iCDguKXguLnguITguLHguKoiLCLsobDsp4Ag66Oo7Lm07IqkIiwi2KzZiNix2Kwg2YTZiNmD2KfYsyJdLCJnZW5kZXIiOjIsImJpb2dyYXBoeSI6Ikdlb3JnZSBXYWx0b24gTHVjYXMgSnIuIChib3JuIE1heSAxNCwgMTk0NCkgaXMgYW4gQW1lcmljYW4gZmlsbW1ha2VyIGFuZCBlbnRyZXByZW5ldXIuIEx1Y2FzIGlzIGtub3duIGZvciBjcmVhdGluZyB0aGUgU3RhciBXYXJzIGFuZCBJbmRpYW5hIEpvbmVzIGZyYW5jaGlzZXMgYW5kIGZvdW5kaW5nIEx1Y2FzZmlsbSwgTHVjYXNBcnRzIGFuZCBJbmR1c3RyaWFsIExpZ2h0ICYgTWFnaWMuIEhlIHNlcnZlZCBhcyBjaGFpcm1hbiBvZiBMdWNhc2ZpbG0gYmVmb3JlIHNlbGxpbmcgaXQgdG8gVGhlIFdhbHQgRGlzbmV5IENvbXBhbnkgaW4gMjAxMi5cblxuQWZ0ZXIgZ3JhZHVhdGluZyBmcm9tIHRoZSBVbml2ZXJzaXR5IG9mIFNvdXRoZXJuIENhbGlmb3JuaWEgaW4gMTk2NywgTHVjYXMgY28tZm91bmRlZCBBbWVyaWNhbiBab2V0cm9wZSB3aXRoIGZpbG1tYWtlciBGcmFuY2lzIEZvcmQgQ29wcG9sYS4gTHVjYXMgd3JvdGUgYW5kIGRpcmVjdGVkIFRIWCAxMTM4ICgxOTcxKSwgYmFzZWQgb24gaGlzIGVhcmxpZXIgc3R1ZGVudCBzaG9ydCBFbGVjdHJvbmljIExhYnlyaW50aDogVEhYIDExMzggNEVCLCB3aGljaCB3YXMgYSBjcml0aWNhbCBzdWNjZXNzIGJ1dCBhIGZpbmFuY2lhbCBmYWlsdXJlLiBIaXMgbmV4dCB3b3JrIGFzIGEgd3JpdGVyLWRpcmVjdG9yIHdhcyB0aGUgZmlsbSBBbWVyaWNhbiBHcmFmZml0aSAoMTk3MyksIGluc3BpcmVkIGJ5IGhpcyB5b3V0aCBpbiBlYXJseSAxOTYwcyBNb2Rlc3RvLCBDYWxpZm9ybmlhLCBhbmQgcHJvZHVjZWQgdGhyb3VnaCB0aGUgbmV3bHkgZm91bmRlZCBMdWNhc2ZpbG0uIFRoZSBmaWxtIHdhcyBjcml0aWNhbGx5IGFuZCBjb21tZXJjaWFsbHkgc3VjY2Vzc2Z1bCwgYW5kIHJlY2VpdmVkIGZpdmUgQWNhZGVteSBBd2FyZCBub21pbmF0aW9ucyBpbmNsdWRpbmcgQmVzdCBQaWN0dXJlLlxuXG5MdWNhcydzIG5leHQgZmlsbSwgdGhlIGVwaWMgc3BhY2Ugb3BlcmEgU3RhciBXYXJzICgxOTc3KSwgaGFkIGEgdHJvdWJsZWQgcHJvZHVjdGlvbiBidXQgd2FzIGEgc3VycHJpc2UgaGl0LCBiZWNvbWluZyB0aGUgaGlnaGVzdC1ncm9zc2luZyBmaWxtIGF0IHRoZSB0aW1lLCB3aW5uaW5nIHNpeCBBY2FkZW15IEF3YXJkcyBhbmQgc3BhcmtpbmcgYSBjdWx0dXJhbCBwaGVub21lbm9uLiBMdWNhcyBwcm9kdWNlZCBhbmQgY28td3JvdGUgdGhlIHNlcXVlbHMgVGhlIEVtcGlyZSBTdHJpa2VzIEJhY2sgKDE5ODApIGFuZCBSZXR1cm4gb2YgdGhlIEplZGkgKDE5ODMpLiBXaXRoIGRpcmVjdG9yIFN0ZXZlbiBTcGllbGJlcmcsIGhlIGNyZWF0ZWQsIHByb2R1Y2VkIGFuZCBjby13cm90ZSB0aGUgSW5kaWFuYSBKb25lcyBmaWxtcyBSYWlkZXJzIG9mIHRoZSBMb3N0IEFyayAoMTk4MSksIFRlbXBsZSBvZiBEb29tICgxOTg0KSwgVGhlIExhc3QgQ3J1c2FkZSAoMTk4OSkgYW5kIEtpbmdkb20gb2YgdGhlIENyeXN0YWwgU2t1bGwgKDIwMDgpLiBIZSBhbHNvIHByb2R1Y2VkIGFuZCB3cm90ZSBhIHZhcmlldHkgb2YgZmlsbXMgYW5kIHRlbGV2aXNpb24gc2VyaWVzIHRocm91Z2ggTHVjYXNmaWxtIGJldHdlZW4gdGhlIDE5NzBzIGFuZCB0aGUgMjAxMHMuXG5cbkluIDE5OTcsIEx1Y2FzIHJlcmVsZWFzZWQgdGhlIFN0YXIgV2FycyB0cmlsb2d5IGFzIHBhcnQgb2YgYSBzcGVjaWFsIGVkaXRpb24gZmVhdHVyaW5nIHNldmVyYWwgYWx0ZXJhdGlvbnM7IGhvbWUgbWVkaWEgdmVyc2lvbnMgd2l0aCBmdXJ0aGVyIGNoYW5nZXMgd2VyZSByZWxlYXNlZCBpbiAyMDA0IGFuZCAyMDExLiBIZSByZXR1cm5lZCB0byBkaXJlY3Rpbmcgd2l0aCBhIFN0YXIgV2FycyBwcmVxdWVsIHRyaWxvZ3kgY29tcHJpc2luZyBUaGUgUGhhbnRvbSBNZW5hY2UgKDE5OTkpLCBBdHRhY2sgb2YgdGhlIENsb25lcyAoMjAwMiksIGFuZCBSZXZlbmdlIG9mIHRoZSBTaXRoICgyMDA1KS4gSGUgbGFzdCBjb2xsYWJvcmF0ZWQgb24gdGhlIENHSS1hbmltYXRlZCB0ZWxldmlzaW9uIHNlcmllcyBTdGFyIFdhcnM6IFRoZSBDbG9uZSBXYXJzICgyMDA44oCTMjAxNCwgMjAyMCksIHRoZSB3YXIgZmlsbSBSZWQgVGFpbHMgKDIwMTIpLCBhbmQgdGhlIENHSSBmaWxtIFN0cmFuZ2UgTWFnaWMgKDIwMTUpLlxuXG5MdWNhcyBpcyBvbmUgb2YgaGlzdG9yeSdzIG1vc3QgZmluYW5jaWFsbHkgc3VjY2Vzc2Z1bCBmaWxtbWFrZXJzIGFuZCBoYXMgYmVlbiBub21pbmF0ZWQgZm9yIGZvdXIgQWNhZGVteSBBd2FyZHMuIEhpcyBmaWxtcyBhcmUgYW1vbmcgdGhlIDEwMCBoaWdoZXN0LWdyb3NzaW5nIG1vdmllcyBhdCB0aGUgTm9ydGggQW1lcmljYW4gYm94IG9mZmljZSwgYWRqdXN0ZWQgZm9yIHRpY2tldC1wcmljZSBpbmZsYXRpb24uIEx1Y2FzIGlzIGNvbnNpZGVyZWQgYSBzaWduaWZpY2FudCBmaWd1cmUgb2YgdGhlIDIwdGgtY2VudHVyeSBOZXcgSG9sbHl3b29kIG1vdmVtZW50LlxuXG5EZXNjcmlwdGlvbiBhYm92ZSBmcm9tIHRoZSBXaWtpcGVkaWEgYXJ0aWNsZSBHZW9yZ2UgTHVjYXMsIGxpY2Vuc2VkIHVuZGVyIENDLUJZLVNBLCBmdWxsIGxpc3Qgb2YgY29udHJpYnV0b3JzIG9uIFdpa2lwZWRpYS4iLCJwb3B1bGFyaXR5IjoxMS45NzQsInBsYWNlX29mX2JpcnRoIjoiTW9kZXN0bywgQ2FsaWZvcm5pYSwgVVNBIiwicHJvZmlsZV9wYXRoIjoiXC9kMFpNZGdNejFtVmNXV2N0eUY3c2J5bVNsdjQuanBnIiwiYWR1bHQiOmZhbHNlLCJpbWRiX2lkIjoibm0wMDAwMTg0IiwiaG9tZXBhZ2UiOm51bGx9
+  recorded_at: Sun, 28 Jun 2020 05:22:53 GMT
+recorded_with: VCR 6.0.0

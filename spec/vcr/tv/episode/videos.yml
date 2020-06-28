@@ -9,52 +9,60 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:16 GMT
-      Etag:
-      - '"24e399aa35ac9c30feffaa901f62fc76"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '22416'
-      X-Memc-Expires:
-      - '6384'
-      X-Memc-Key:
-      - 76fa451f5a6cb63a4dbb07801f640a20
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '37'
-      X-Ratelimit-Reset:
-      - '1455031046'
       Content-Length:
       - '25'
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:23:04 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - 76fa451f5a6cb63a4dbb07801f640a20
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '21600'
+      Etag:
+      - W/"ba53ff949582095725acc3c680abcf93"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:23:04 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 0b0c68b7b5c3bef408aa83b176024b1f.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - kAQfNSlQD7ryWRflXBte2kCTyH0yZBAfqEyHXmsErODlTKYeLsAmlQ==
     body:
       encoding: UTF-8
       string: '{"id":63056,"results":[]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:16 GMT
-recorded_with: VCR 3.0.1
+  recorded_at: Sun, 28 Jun 2020 05:23:04 GMT
+recorded_with: VCR 6.0.0

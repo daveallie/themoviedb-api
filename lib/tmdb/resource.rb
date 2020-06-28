@@ -26,7 +26,7 @@ module Tmdb
         end
       end
 
-      parse_json(response)
+      parse_json(response.body)
     end
 
   end

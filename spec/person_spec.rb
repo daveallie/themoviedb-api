@@ -130,7 +130,7 @@ describe Tmdb::Person do
   context '#tagged_images' do
     let(:tagged_images) do
       VCR.use_cassette 'person/tagged_images' do
-        Tmdb::Person.tagged_images(287)
+        Tmdb::Person.tagged_images(1245)
       end
     end
 
@@ -181,8 +181,11 @@ describe Tmdb::Person do
     end
 
     it 'Tmdb::Person should contain known_for field with misc objects' do
-      expect(subject.results.first.known_for).to be_an_instance_of(Array)
-      expect(subject.results.first.known_for.first).to be_an_instance_of(Tmdb::Movie)
+      known_for = subject.results.first.known_for.sort_by {|i| i.class.name }
+
+      expect(known_for).to be_an_instance_of(Array)
+      expect(known_for.first).to be_an_instance_of(Tmdb::Movie)
+      expect(known_for.last).to be_an_instance_of(Tmdb::TV)
     end
   end
 

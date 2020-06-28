@@ -9,53 +9,65 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:06 GMT
-      Etag:
-      - '"3a309f8b9ba7d44eafecbe94bdc6ecea"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '23322'
-      X-Memc-Expires:
-      - '5478'
-      X-Memc-Key:
-      - e900f4044ce333cdc35ce7c732c0cd40
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '38'
-      X-Ratelimit-Reset:
-      - '1455031036'
       Content-Length:
-      - '186'
+      - '566'
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:22:48 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 959894657ca87014367f853627f10b9b
+      X-Memc-Age:
+      - '5212'
+      X-Memc-Expires:
+      - '16388'
+      Etag:
+      - W/"a1afcf7a11eb94e2d18c77ccc5e48b3f"
+      Last-Modified:
+      - Sun, 28 Jun 2020 05:22:48 GMT
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 8eb3faf3f05da0ac024b118287e8d2bd.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - tXtPrj6nWCHLG_LS3ymNqA18Fm1PVa1TKi3gpYngfo4aqPPtBGGgPA==
     body:
       encoding: UTF-8
-      string: '{"id":550,"keywords":[{"id":825,"name":"support group"},{"id":851,"name":"dual
-        identity"},{"id":1541,"name":"nihilism"},{"id":3927,"name":"rage and hate"},{"id":4142,"name":"insomnia"}]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:06 GMT
-recorded_with: VCR 3.0.1
+      string: '{"id":550,"keywords":[{"id":818,"name":"based on novel or book"},{"id":825,"name":"support
+        group"},{"id":851,"name":"dual identity"},{"id":1541,"name":"nihilism"},{"id":1721,"name":"fight"},{"id":3927,"name":"rage
+        and hate"},{"id":4142,"name":"insomnia"},{"id":4565,"name":"dystopia"},{"id":9181,"name":"alter
+        ego"},{"id":34117,"name":"cult film"},{"id":156761,"name":"split personality"},{"id":179173,"name":"quitting
+        a job"},{"id":212803,"name":"dissociative identity disorder"},{"id":249899,"name":"graphic
+        violence"},{"id":260426,"name":"self destructiveness"}]}'
+  recorded_at: Sun, 28 Jun 2020 05:22:48 GMT
+recorded_with: VCR 6.0.0

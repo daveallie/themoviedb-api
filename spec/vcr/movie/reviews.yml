@@ -9,52 +9,63 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin19.4.0 x86_64) ruby/2.7.1p83
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:07 GMT
-      Etag:
-      - '"3d816602769877e29d143ba427c6f70d"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '3549'
-      X-Memc-Expires:
-      - '25251'
-      X-Memc-Key:
-      - f8d7d87a6e35ad7a456e2a2cfc745545
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '34'
-      X-Ratelimit-Reset:
-      - '1455031036'
       Content-Length:
-      - '66'
+      - '629'
       Connection:
       - keep-alive
+      Date:
+      - Sun, 28 Jun 2020 05:22:50 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=21600
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - f8d7d87a6e35ad7a456e2a2cfc745545
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '21600'
+      Last-Modified:
+      - '2020-05-20 21:02:15 +0000'
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 fa9c6d18d126d08fab9acd98833b67f0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - SYD1-C2
+      X-Amz-Cf-Id:
+      - B4Y4-xlF6PzBxJwx4qLFDFibWRZWZ19aAG9AQZaAuZem175eueVxVw==
     body:
       encoding: UTF-8
-      string: '{"id":550,"page":1,"results":[],"total_pages":0,"total_results":0}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:07 GMT
-recorded_with: VCR 3.0.1
+      string: '{"id":550,"page":1,"results":[{"author":"Goddard","content":"Pretty
+        awesome movie.  It shows what one crazy person can convince other crazy people
+        to do.  Everyone needs something to believe in.  I recommend Jesus Christ,
+        but they want Tyler Durden.","id":"5b1c13b9c3a36848f2026384","url":"https://www.themoviedb.org/review/5b1c13b9c3a36848f2026384"},{"author":"Brett
+        Pascoe","content":"In my top 5 of all time favourite movies. Great story line
+        and a movie you can watch over and over again.","id":"5b3e1ba1925141144c007f17","url":"https://www.themoviedb.org/review/5b3e1ba1925141144c007f17"}],"total_pages":1,"total_results":2}'
+  recorded_at: Sun, 28 Jun 2020 05:22:50 GMT
+recorded_with: VCR 6.0.0
